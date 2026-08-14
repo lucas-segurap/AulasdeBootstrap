@@ -4,15 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <meta name="description" content="Esse é um site para a orientação daqueles que nunca usaram o bootstrap">
+  <title>Bootstrap</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-black text-light">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Meu site</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -99,16 +100,15 @@
         </button>
       </div>
     </div>
-    <div class="container text-center">
+    <div class="container text-center" m-3>
       <div class="row">
         <div class="col ">
           <div class="card" style="width: 18rem;">
-            <img src="img/img1.jpg" class="card-img-top" alt="...">
+            <img src="img/img1.jpg" class="card-img-top" alt="..." height="430px">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Card </h5>
+              <p class="card-text">Por do soll na praia.</p>
+              <a href="#" class="btn btn-primary">Aperte</a>
             </div>
           </div>
         </div>
@@ -116,21 +116,19 @@
           <div class="card" style="width: 18rem;">
             <img src="img/img2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Card</h5>
+              <p class="card-text">Sol na neve.</p>
+              <a href="#" class="btn btn-primary">Aperte</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card" style="width: 18rem;">
-            <img src="img/img3.jpg" class="card-img-top" alt="...">
+            <img src="img/img3.jpg" class="card-img-top" alt="..." height="430px">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Card </h5>
+              <p class="card-text">Palácio do planalto.</p>
+              <a href="#" class="btn btn-primary">Aperte</a>
             </div>
           </div>
         </div>
@@ -138,44 +136,36 @@
       <div class="dropdown" data-bs-theme="light">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight"
           data-bs-toggle="dropdown" aria-expanded="false">
-          Default dropdown
+          Definições
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
           <li><a class="dropdown-item active" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><a class="dropdown-item" href="#">Ação</a></li>
+          <li><a class="dropdown-item" href="#">Anotar ação</a></li>
+          <li><a class="dropdown-item" href="#">Espere aqui</a></li>
           <li>
             <hr class="dropdown-divider">
           </li>
-          <li><a class="dropdown-item" href="#">Separated link</a></li>
+          <li><a class="dropdown-item" href="#">Separar link</a></li>
         </ul>
       </div>
 
     </div>
 
   </div>
-  <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center"> <a href="/"
-            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
-              class="bi" width="30" height="24" aria-hidden="true">
-              <use xlink:href="#bootstrap"></use>
-            </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24"
-                height="24" aria-hidden="true">
-                <use xlink:href="#instagram"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24"
-                height="24">
-                <use xlink:href="#facebook"></use>
-              </svg></a></li>
-        </ul>
-      </footer>
+  <form>
+    <h5>Deixe seu email</h5>
+    <p>Anote seu email para mais informações.</p>
+    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+      <label for="newsletter1" class="visually-hidden">endereço de email</label>
+      <input id="newsletter1" type="email" class="form-control" placeholder="Email address">
+      <button class="btn btn-primary" type="button">Inscrição</button>
+    </div>
+  </form>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
