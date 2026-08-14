@@ -1,5 +1,4 @@
-# AulasdeBootstrap
-Aprendendo a usar o Bootstrap
+
 # 🎨 Aulas de Bootstrap
 
 Este repositório foi criado para guardar os conteúdos, exercícios e projetos desenvolvidos durante as **aulas de Bootstrap**.
